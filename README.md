@@ -1,2 +1,0 @@
-# ShumeykoMarina
-Resume project
