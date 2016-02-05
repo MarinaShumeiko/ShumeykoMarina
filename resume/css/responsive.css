@@ -1,0 +1,315 @@
+/*------------------------------------------------
+*
+*	Table of contents: 
+*	1. Screen resolution 768px+
+*	2. Screen resolution 992px+
+*	3. Screen resolution between 768px to 991px
+*	4. Screen resulution less than 991px
+*	5. Screen resolution less than 767px
+*	6. Screen resolution less than 479px
+*
+-------------------------------------------------*/
+
+/*-------------------------------------------------
+	1. Screen resolution 768px+
+-------------------------------------------------*/
+@media only screen and (min-width: 768px) {
+	.menu {
+		top: 30px;
+		left: 100px;
+	}
+	.show-menu {
+		left: 80px;
+	}
+	.menu .nav {
+		padding: 0 15px;
+	}
+	.menu .nav li {
+		display: inline-block;
+		height: 50px;
+		line-height: 50px;
+	}
+	.customNavigation, 
+	.portfolio-background ul {
+		position: absolute;
+		right: 0;
+		bottom: 0;
+	}
+	.contact-info {
+		padding-left: 20px;
+	}
+	.about-grey-content div {
+		background: rgb(245, 245, 245);
+	}
+	.services-background .row {
+		margin: 0 -25px;
+	}
+	.resume-box div:first-child {
+		width: 180px;
+	}
+	.resume-box div:last-child {
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 200px;
+	}
+	.resume-box i {
+		position: absolute;
+		right: 0;
+		bottom: 0;
+	}
+	.input-style {
+		float: left;
+		width: 50%;
+		margin-bottom: 30px;
+		padding-right: 25px;
+	}
+	.text-style {
+		float: right;
+		width: 50%;
+		padding-left: 25px;
+	}
+	.blog-page-content {
+		padding-right: 25px;
+	}
+	.blog-sidebar {
+		padding-left: 25px;
+	}
+	.post-additional-info {
+		height: 42px;
+	}
+	.post-additional-info div {
+		float: left;
+		width: 50%;
+		line-height: 42px;
+	}
+	.post-additional-info div:first-child {
+		border-right: 1px solid rgb(220, 220, 220);
+	}
+	.comment-input:first-child {
+		padding-right: 20px;
+	}
+}
+
+/*-------------------------------------------------
+	2. Screen resolution 992px+
+-------------------------------------------------*/
+@media only screen and (min-width: 992px) {
+	.contact-info, 
+	.education-content {
+		padding-right: 25px;
+	}
+	.about-grey-content, 
+	.employment-content {
+		padding-left: 25px;
+	}
+	.skill-box, 
+	.testimonial-box {
+		border-right: 1px solid rgb(220, 220, 220);
+	}
+	.skill-box:last-child {
+		border: none;
+	}
+	.testimonialWrapper {
+		display: table;
+		table-layout: fixed;
+		height: 100%;
+	}
+	.testimonial-box {
+		float: none;
+		display: table-cell;
+		height: 100%;
+	}
+}
+
+/*-------------------------------------------------
+	3. Screen resolution between 768px to 991px
+-------------------------------------------------*/
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.about-image {
+		padding: 0 25px 0 0;
+	}
+	.contact-info {
+		padding-left: 25px;
+	}
+	.contact-info ul li:first-child {
+		padding-top: 15px;
+	}
+	.contact-info ul li:last-child {
+		padding-bottom: 15px;
+	}
+	.services-background .white-layer {
+		padding: 75px 0;
+	}
+	.services-background .row div {
+		margin: 25px 0;
+	}
+	.skill-box:nth-child(-n+2) {
+		border-bottom: 1px solid rgb(220, 220, 220);
+	}
+	.skill-box:nth-child(odd) {
+		border-right: 1px solid rgb(220, 220, 220);
+	}
+}
+
+/*-------------------------------------------------
+	4. Screen resolution less than 991px
+-------------------------------------------------*/
+@media only screen and (max-width: 991px) {
+	.about-image {
+		margin-bottom: 50px;
+	}
+	.contact-info ul li {
+		padding: 15px 0;
+	}
+	.education-content {
+		margin-bottom: 30px;
+	}
+	.testimonial-box {
+		border-bottom: 1px solid rgb(220, 220, 220);
+	}
+	#map-canvas {
+		height: 300px;
+	}
+}
+
+/*-------------------------------------------------
+	5. Screen resolution less than 767px
+-------------------------------------------------*/
+@media only screen and (max-width: 767px) {
+	.container {
+		padding: 0 30px;
+	}
+	h1 {
+		font-size: 36px;
+	}
+	.menu {
+		top: 100px;
+		left: 30px;
+	}
+	.show-menu {
+		top: 80px;
+	}
+	.menu .nav {
+		width: 200px;
+		padding: 10px 0;
+	}
+	.menu .nav li {
+		padding: 15px;
+	}
+	.home-background, 
+	.services-background, 
+	.blog-title {
+		background-attachment: scroll;
+		background-position: top center !important;
+	}
+	.about-background {
+		padding-bottom: 100px;
+	}
+	.contact-info {
+		margin-bottom: 70px;
+	}
+	.about-grey-content div {
+		padding: 0;
+	}
+	.about-grey-content div::before {
+		position: absolute;
+		content: '';
+		top: -20px;
+		right: -20px;
+		bottom: -20px;
+		left: -20px;
+		z-index: -1;
+		background: rgb(245, 245, 245);
+	}
+	.services-background .row div {
+		margin-bottom: 30px;
+		padding: 0;
+	}
+	.services-background .row div:last-child {
+		margin: 0;
+	}
+	.services-background .row div span {
+		right: 0;
+	}
+	.contact-form .submit-style {
+		margin-top: 30px;
+	}
+	.customNavigation {
+		display: inline-block;
+		margin: 50px 0 0 -20px;
+	}
+	.portfolio-background ul {
+		margin: 50px 0 -10px -20px;
+	}
+	.portfolio-background ul li {
+		margin-bottom: 10px;
+	}
+	.blog-post {
+		padding: 0 15px;
+	}
+	.resume-box div:first-child {
+		margin-bottom: 20px;
+		padding: 20px;
+	}
+	.resume-box div:last-child {
+		text-align: right;
+	}
+	.resume-box p {
+		text-align: left;
+	}
+	.skill-box {
+		border-bottom: 1px solid rgb(220, 220, 220);
+	}
+	.portfolio-background .section-title {
+		text-align: center;
+	}
+	.popup-box div, 
+	.testimonial-box, 
+	.sidebar-box {
+		padding: 20px;
+	}
+	.input-style, 
+	.text-style {
+		width: 100%;
+	}
+	.text-style {
+		margin-top: 30px;
+	}
+	.blog-page-post .owl-theme .owl-controls {
+		right: 20px;
+		bottom: 20px;
+	}
+	.blog-sidebar {
+		margin-top: 100px;
+	}
+	.sidebar-box h4 {
+		margin-bottom: 20px;
+	}
+	.post-additional-info div {
+		width: 100%;
+		padding: 15px 0;
+	}
+	.post-additional-info div:first-child {
+		border-bottom: 1px solid rgb(220, 220, 220);
+	}
+	.comment-input {
+		width: 100%;
+	}
+	.comment-input:first-child {
+		margin-bottom: 20px;
+	}
+}
+
+/*-------------------------------------------------
+	6. Screen resolution less than 479px
+-------------------------------------------------*/
+@media only screen and (max-width: 479px) {
+	.error-page-background .middle-content {
+		padding: 0 30px;
+	}
+	.error-page-background img {
+		width: 100%;
+	}
+}
