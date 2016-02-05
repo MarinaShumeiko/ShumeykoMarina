@@ -205,7 +205,7 @@ $(function() {
     el: '#map-canvas',
     lat: initLatitude,
     lng: initLongitude,
-    zoom: 16,
+    zoom: 10,
     scrollwheel: false
   });
   map.addMarker({
