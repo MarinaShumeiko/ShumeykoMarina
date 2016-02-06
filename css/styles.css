@@ -1,9 +1,5 @@
 /*------------------------------------------------
-*	Template name: Luna
-*	Version      : 1.0
-*	Author       : FlaTheme
-*	Author URL   : http://themeforest.net/user/flatheme
-*
+
 *	Table of contents:
 *	1. 	Body/Main
 *	2.	Toggle Menu
@@ -333,8 +329,8 @@ input, textarea {
 	3. Home Section
 -------------------------------------------------*/
 .fill {
-	height: 50%;
-	min-height: 50%;
+	height: 100%;
+	min-height: 100%;
 	margin: 0;
 }
 
