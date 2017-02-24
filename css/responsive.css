@@ -54,11 +54,6 @@
 		bottom: 0;
 		left: 200px;
 	}
-	.resume-box i {
-		position: absolute;
-		right: 0;
-		bottom: 0;
-	}
 	.input-style {
 		float: left;
 		width: 50%;
@@ -163,9 +158,6 @@
 	.contact-info ul li {
 		padding: 15px 0;
 	}
-	.education-content {
-		margin-bottom: 30px;
-	}
 	.testimonial-box {
 		border-bottom: 1px solid rgb(220, 220, 220);
 	}
@@ -252,9 +244,6 @@
 	.resume-box div:first-child {
 		margin-bottom: 20px;
 		padding: 20px;
-	}
-	.resume-box div:last-child {
-		text-align: right;
 	}
 	.resume-box p {
 		text-align: left;

@@ -386,7 +386,7 @@ input, textarea {
 	4. About Section
 -------------------------------------------------*/
 .about-background {
-	padding: 100px 0;
+	padding: 50px 0;
 }
 
 .about-image, 
@@ -525,7 +525,7 @@ input, textarea {
 -------------------------------------------------*/
 .blog-background {
 	overflow: hidden;
-	padding: 100px 0 60px;
+	padding: 50px 0 60px;
 	text-align: center;
 }
 
@@ -662,7 +662,7 @@ input, textarea {
 	8. Resume section
 -------------------------------------------------*/
 .resume-background {
-	padding: 100px 0;
+	padding: 50px 0;
 }
 
 .education-content, 
@@ -673,12 +673,12 @@ input, textarea {
 
 .resume-box {
 	position: relative;
-	margin-bottom: 30px;
+	margin-bottom: 70px;
 }
 
-.resume-box:last-child {
+/*.resume-box:last-child {
 	margin: 0;
-}
+}*/
 
 .resume-box div:first-child {
 	background: rgb(245, 245, 245);
@@ -705,7 +705,11 @@ input, textarea {
 
 .resume-box i {
 	color: rgb(160, 160, 160);
-	font-size: 30px;
+	font-size: 24px;
+	position: absolute;
+	left: 10px;
+	top: 10px;
+
 }
 
 /*-------------------------------------------------
@@ -890,7 +894,7 @@ input, textarea {
 	11. Contact section
 -------------------------------------------------*/
 .contact-background {
-	padding: 100px 0;
+	padding: 50px 0;
 }
 
 .contact-form, 
@@ -1013,7 +1017,7 @@ input, textarea {
 }
 
 .blog-title .white-layer {
-	padding: 100px 0;
+	padding: 50px 0;
 }
 
 .blog-title h2 {
