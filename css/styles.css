@@ -362,16 +362,12 @@ input, textarea {
 	left: 50%; 
 	width: 150px;
     height: 150px;
-	top: 0px;
+	top: 30px;
 	margin: auto;
 	transform: translate(-50%, 0%);
 	border: 15px solid #fff;
 	border-radius: 100%;
 	z-index: 2;
-}
-
-.myAvatar img {
-	display: blockl
 }
 
 .cloud {
@@ -381,26 +377,23 @@ input, textarea {
 	background: url("../images/cloud.svg") no-repeat top center;
 }
 .cloud--left {
-	left: 20%;
+	left: 0%;
 	top: 10%;
 	animation: moveImage 30s linear infinite;
 }
-
 @keyframes moveImage {
-    100% {
-      transform: translateX(calc(100vw));
-    }
+	0% {left: 20%;}
+	100% {left: calc(100% - 150px);}
 }
-@keyframes moveImageRight {
-    100% {
-      transform: translateX(calc(100vw));
-    }
-}
-
 .cloud--right {
 	left: -10%;
-	top: 40%;
+	top: 60%;
 	animation: moveImageRight 30s linear infinite;
+}
+
+@keyframes moveImageRight {
+	0% { left: -10%; } 
+	100% { left: calc(100% - 150px); }
 }
 
 @media only screen and (max-width: 500px) {
@@ -412,35 +405,26 @@ input, textarea {
 		top: 70%;
 	}
 }
-
 .home-background__centered img {
 	width: 100%;
 }
-
 .home-background span {
 	font-size: 18px;
 	line-height: 28px;
 	letter-spacing: 1px;
 }
-
 .middle-content {
 	position: relative;
-	top: 30%;
+	top: 40%;
 	padding: 0 30px;
 	text-align: center;
 }
-
 @media only screen and (max-width: 500px) {
     .middle-content {
 		top: 50%;
 		padding: 0 10px;
 	}
-
-	.cloud--right {
-		top: 70%;
-	}
 }
-
 .white-layer {
 	position: relative;
 	background: rgba(255, 255, 255, 0);
