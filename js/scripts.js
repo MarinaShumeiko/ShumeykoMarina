@@ -68,8 +68,8 @@ $(function() {
 
   // Blog Slider
   $("#blogSlider").owlCarousel({
-    items: 2,
-    itemsDesktop: [1199,2], // Show 2 items on Desktop
+    items: 3,
+    itemsDesktop: [1199,3], // Show 2 items on Desktop
     itemsDesktopSmall: [979,2], // 2 items on Small Deskktop
     itemsTablet: [768,1], // 1 item on Tablet
     itemsMobile: [479,1], // 1 item on Mobile
