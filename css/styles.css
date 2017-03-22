@@ -37,18 +37,18 @@ body {
 
 h1, h2, h3, h4 {
 	margin: 0 0 10px 0;
-	color: rgb(72, 65, 113);
+	color: #1e836c;
 	text-transform: uppercase;
 }
 
 h1 {
-	font-weight: 900;
-	font-size: 64px;
+	font-weight: 500;
+	font-size: 34px;
 	letter-spacing: 4px;
 }
 
 h2 {
-	font-weight: 900;
+	font-weight: 500;
 	font-size: 32px;
 	letter-spacing: 2px;
 	text-align: left;
@@ -69,14 +69,14 @@ h2::before {
 }
 
 h3 {
-	font-weight: 900;
+	font-weight: 500;
 	font-size: 16px;
 	letter-spacing: 1px;
 	text-transform: none;
 }
 
 h4 {
-	font-weight: 700;
+	font-weight: 500;
 	font-size: 12px;
 	letter-spacing: 1.5px;
 }
@@ -122,7 +122,7 @@ input, textarea {
 
 .btn-style {
 	display: inline-block;
-	background: rgb(72, 65, 113);
+	background: #1e836c;
 	padding: 15px 30px;
 	color: #fff;
 	font-weight: 700;
@@ -338,25 +338,93 @@ input, textarea {
 	position: relative;
 	top:0;
 	left:0;
-	background: url("../images/s4.jpg") no-repeat top center fixed;
+	/*background: url("../images/s4.jpg") no-repeat top center fixed;*/
+	background-color: #e0ebe8;
 	width: 100%;
 	height: 100%;
 	background-size: cover;
 }
 
+.home-background__centered {
+	position: absolute;
+	top: 100%;
+	width: 100%;
+	margin: 0 auto;
+	max-width: 800px;
+	max-height: 300px;
+	background-size: cover;
+	left:50%; 
+    transform:translate(-50%, -100%); 
+}
+
+.myAvatar {
+	position: absolute;
+	left: 50%; 
+	width: 150px;
+    height: 150px;
+	top: 30px;
+	margin: auto;
+	transform: translate(-50%, 0%);
+	border: 15px solid #fff;
+	border-radius: 100%;
+	z-index: 2;
+}
+
+.cloud {
+	position: absolute;
+	width: 150px;
+    height: 45px;
+	background: url("../images/cloud.svg") no-repeat top center;
+}
+.cloud--left {
+	left: 0%;
+	top: 10%;
+	animation: moveImage 30s linear infinite;
+}
+@keyframes moveImage {
+	0% {left: 20%;}
+	100% {left: calc(100% - 150px);}
+}
+.cloud--right {
+	left: -10%;
+	top: 60%;
+	animation: moveImageRight 30s linear infinite;
+}
+
+@keyframes moveImageRight {
+	0% { left: -10%; } 
+	100% { left: calc(100% - 150px); }
+}
+
+@media only screen and (max-width: 500px) {
+	.cloud--left {
+		left: 30%;
+		top: 25%;
+	}
+	.cloud--right {
+		top: 70%;
+	}
+}
+.home-background__centered img {
+	width: 100%;
+}
 .home-background span {
 	font-size: 18px;
 	line-height: 28px;
 	letter-spacing: 1px;
 }
-
 .middle-content {
 	position: relative;
-	top: 50%;
+	top: 40%;
 	padding: 0 30px;
 	text-align: center;
 }
-
+@media only screen and (max-width: 500px) {
+    .middle-content {
+		top: 50%;
+		padding: 0 10px;
+	}
+}
 .white-layer {
 	position: relative;
 	background: rgba(255, 255, 255, 0);
@@ -484,7 +552,7 @@ input, textarea {
 
 .skill-box {
 	padding: 50px 30px;
-	color: rgb(171, 134, 141);
+	color: rgb(80, 80, 80);
 }
 
 .skill-box i {
@@ -535,7 +603,7 @@ input, textarea {
 
 .customNavigation ul li {
 	display: inline-block;
-	background: rgb(72, 65, 113);
+	background: #1e836c;
 	width: 42px;
 	height: 42px;
 	margin-right: 8px;
@@ -636,7 +704,8 @@ input, textarea {
 	7. Services
 -------------------------------------------------*/
 .services-background {
-	background: url("../images/s4.jpg") no-repeat top center fixed;
+	/*background: url("../images/s4.jpg") no-repeat top center fixed;*/
+	background-color: #c5ded7;
 	background-size: cover;
 }
 
@@ -926,7 +995,7 @@ input, textarea {
 	display: inline-block;
 	margin-top: 30px;
 	padding: 15px 30px;
-	background: rgb(72, 65, 113);
+	background: #1e836c;
 	-webkit-border-radius: 0;
 	-moz-border-radius: 0;
 	-ms-border-radius: 0;
