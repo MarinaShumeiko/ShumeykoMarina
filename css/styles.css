@@ -415,7 +415,7 @@ input, textarea {
 }
 .middle-content {
 	position: relative;
-	top: 40%;
+	top: 50%;
 	padding: 0 30px;
 	text-align: center;
 }
