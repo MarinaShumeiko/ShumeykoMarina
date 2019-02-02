@@ -301,4 +301,7 @@
 	.error-page-background img {
 		width: 100%;
 	}
+	h1 {
+		font-size: 26px;
+	}
 }
