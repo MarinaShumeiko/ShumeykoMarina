@@ -421,7 +421,7 @@ input, textarea {
 }
 @media only screen and (max-width: 500px) {
     .middle-content {
-		top: 50%;
+		top: 60%;
 		padding: 0 10px;
 	}
 }
